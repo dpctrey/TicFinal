@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.jsu.mcis.TicTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-01-26T03:35:30" hostname="WINDOWS-LJ5NMKH" time="0.065">
+  <properties/>
+  <testcase name="markTest" classname="edu.jsu.mcis.TicTest" time="0.059"/>
+  <testcase name="winningTest" classname="edu.jsu.mcis.TicTest" time="0.002"/>
+  <testcase name="testUserInput" classname="edu.jsu.mcis.TicTest" time="0.001"/>
+  <system-out><![CDATA[CS310 IP1 : TicTacToe
+CS310 IP1 : TicTacToe
+Winner is: X
+Winner is: X
+Winner is: X
+Winner is: X
+Winner is: X
+Winner is: X
+Winner is: X
+Winner is: X
+Winner is: X
+CS310 IP1 : TicTacToe
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

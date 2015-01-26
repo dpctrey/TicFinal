@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 2.8.5 (Jython 2.5.3 on java1.8.0_25)" generated="20150125 21:38:54.259">
+<suite source="C:\Users\Trey\Desktop\CS310\tic-tac-toe\acceptance\TicTacToeTests.txt" name="TicTacToeTests" id="s1">
+<test name="Win Diagonally as X" id="s1-t1">
+<kw type="kw" name="${result} = Win As X">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="FAIL" timestamp="20150125 21:38:54.932">No keyword with name '${result} = Win As X' found.</msg>
+<status endtime="20150125 21:38:54.934" starttime="20150125 21:38:54.930" status="FAIL"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status critical="yes" endtime="20150125 21:38:54.938" starttime="20150125 21:38:54.922" status="FAIL">No keyword with name '${result} = Win As X' found.</status>
+</test>
+<test name="Win Horizontally as O" id="s1-t2">
+<kw type="kw" name="${result} = Win As O">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="FAIL" timestamp="20150125 21:38:54.953">No keyword with name '${result} = Win As O' found.</msg>
+<status endtime="20150125 21:38:54.953" starttime="20150125 21:38:54.951" status="FAIL"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status critical="yes" endtime="20150125 21:38:54.956" starttime="20150125 21:38:54.944" status="FAIL">No keyword with name '${result} = Win As O' found.</status>
+</test>
+<test name="Force a Tie" id="s1-t3">
+<kw type="kw" name="${result} = Force The Tie">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="FAIL" timestamp="20150125 21:38:54.969">No keyword with name '${result} = Force The Tie' found.</msg>
+<status endtime="20150125 21:38:54.970" starttime="20150125 21:38:54.967" status="FAIL"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status critical="yes" endtime="20150125 21:38:54.972" starttime="20150125 21:38:54.961" status="FAIL">No keyword with name '${result} = Force The Tie' found.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status endtime="20150125 21:38:54.979" starttime="20150125 21:38:54.264" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3">Critical Tests</stat>
+<stat pass="0" fail="3">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" name="TicTacToeTests" id="s1">TicTacToeTests</stat>
+</suite>
+</statistics>
+<errors>
+<msg level="ERROR" timestamp="20150125 21:38:54.909">Error in file 'C:\Users\Trey\Desktop\CS310\tic-tac-toe\acceptance\TicTacToeTests.txt': Importing test library 'TicTacToeKeywords' failed: ImportError: No module named TicTacToeKeywords
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\RobotFramework\robotframework-2.8.5.jar\Lib\robot\libraries
+  C:\RobotFramework\robotframework-2.8.5.jar\Lib
+  C:\RobotFramework\Lib
+  __classpath__
+  __pyclasspath__/
+  .
+  C:\Python34\Lib
+  C:\Python34\DLLs
+  C:\Python34\Lib\lib-tk
+  C:\Users\Trey\Desktop\CS310\tic-tac-toe\acceptance
+CLASSPATH:
+  .
+  ..\build\classes\main
+  C:\RobotFramework\robotframework-2.8.5.jar</msg>
+</errors>
+</robot>

@@ -1,0 +1,15 @@
+*** Settings ***
+Library           TicTacToeKeywords
+
+*** Test Cases ***
+Win Diagonally as X
+    ${result} = Win As X
+	Should be equal		${result} true
+
+Win Horizontally as O
+    ${result} = Win As O
+	Should be equal		${result} true
+
+Force a Tie
+    ${result} = Force The Tie
+	Should be equal		${result} true
